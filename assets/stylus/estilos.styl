@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,600&display=swap')
+@import 'nib'
+
+img
+  max-width 100%
+
+body
+	font-family 'Nunito', sans-serif
+	font-size 16px
+
+figure
+	margin 0
+	padding 0
+
+section
+  align-items center
+  display flex
+  flex-wrap wrap
+  margin 30px auto 0 auto
+  a
+	  text-decoration none
+@media screen and (max-width: 1023px)
+	section
+		div
+			order 1
+		figure
+			order 2
+
+@media screen and (min-width: 1024px)
+	section
+		width 80%
+		div
+			margin-left 4%
+			width 55%
+		figure
+			width 40%
