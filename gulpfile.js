@@ -9,13 +9,13 @@ const stylus 			= require('gulp-stylus');
 const uglify 			= require('gulp-uglify');
 
 
-gulp.task('serverAptitud', function(){
+gulp.task('serverFlisol', function(){
 	browserSync.init({
 		/** Si piensas cambiar el nombre de la carpeta,
 		    debes cambiar el nombre base-maquetacion-pug-stylus ,
 				por el nombre que elegiste  **/
-		server: '../base-maquetacion-pug-stylus/public',
-		port: 1917
+		server: '../taller-responsive/public',
+		port: 2020
 	});
 
 	gulp.watch('assets/favicon/isotipo.png', gulp.series('generateFavicon'));
