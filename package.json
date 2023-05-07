@@ -18,14 +18,14 @@
   "author": "Gerson Perez Aguilar - CEO de Aptitud Emprendedora",
   "license": "ISC",
   "dependencies": {
-    "browser-sync": "^2.26.12",
+    "browser-sync": "^2.29.1",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^7.1.0",
-    "gulp-pug": "^4.0.1",
-    "gulp-stylus": "^2.7.0",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-stylus": "^3.0.0",
     "gulp-uglify": "^3.0.2",
-    "nib": "^1.1.2"
+    "nib": "^1.2.0"
   },
   "devDependencies": {
     "gulp-to-ico": "^1.0.0"
