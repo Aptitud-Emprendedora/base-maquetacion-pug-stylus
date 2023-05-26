@@ -10,7 +10,7 @@ el servidor se van a generar los archivos en la carpeta public.
 
 # Programas a Instalar
 
-* Atom(Opcional)
+* Visual Code(Opcional)
 * Hyper.is(Opcional)
 * Nodejs(Obligatorio)
 
@@ -26,8 +26,6 @@ Ubícate en la carpeta que haz clonado el proyecto, abres un terminal y lo haz l
 ## Instalar dependencias
 npm install
 
-## Abrir atom (Opcional)
-atom .
 
 ## Desplegar entorno de Desarrollo
 gulp serverAptitud
@@ -49,7 +47,6 @@ Preprocesadores:
 Paquetes:
 + browser-sync
 + gulp-concat
-+ gulp-imagemin
 + gulp-pug
 + gulp-to-ico
 + gulp-stylus

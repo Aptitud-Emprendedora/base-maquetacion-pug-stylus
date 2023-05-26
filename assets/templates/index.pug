@@ -14,7 +14,7 @@ body
 	include global/base-datos
 	header.py-4
 		.container.mx-auto
-			div(class="lg:items-center lg:flex")
+			div
 				div(class="lg:w-1/2")
 					figure
 						img(src="/img/logo.png", alt="logo")
@@ -38,7 +38,7 @@ body
 		section.mt-4
 			.container.mx-auto
 				h2.text-center.text-6xl Nuestras ofertas por Navidad
-				.list.items-center.flex.flex-wrap.justify-around
+				.list
 					each item in productos
 						article.pb-6
 							figure
@@ -46,7 +46,4 @@ body
 							p.px-3.mt-3= item.description
 							h3.px-3= item.price
 							a(href= item.url) Comprar
-
-
-
 	script(src="/js/app.js")
